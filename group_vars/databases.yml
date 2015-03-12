@@ -1,4 +1,5 @@
 ---
-group_job:
-  - 'dba'
+autologic_departments:
+  - 'developers'
+  - 'systems'
 

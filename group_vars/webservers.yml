@@ -1,4 +1,3 @@
 ---
-group_job:
-  - 'developer'
-  - 'sysad'
+autologic_departments:
+  - 'systems'

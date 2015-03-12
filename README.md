@@ -1,5 +1,6 @@
 # Example: Ansible User Management
-This is a simple, but working, example of how you can manage users with Ansible.
+
+This example demonstrates the use of the autologic-users role and the "Department Pattern" for managing users across an estate.
 
 ## License
 
