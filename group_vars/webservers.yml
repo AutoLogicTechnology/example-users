@@ -1,0 +1,11 @@
+---
+users:
+  'Bob':
+    username: 'bob'
+    state: 'present'
+  'John':
+    username: 'johnf'
+    state: 'present'
+  'Barry':
+    username: 'bforeman'
+    state: 'absent'

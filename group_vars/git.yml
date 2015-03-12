@@ -1,0 +1,5 @@
+---
+users:
+  'Mike':
+    username: 'mike'
+    state: 'present'

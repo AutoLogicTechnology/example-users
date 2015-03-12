@@ -1,0 +1,10 @@
+---
+- hosts: all
+  gather_facts: false
+  sudo: true
+  tasks:
+    - name: Add users
+      user:
+        name: "{{item.value.username}}"
+        state: "{{item.value.state}}"
+      with_dict: users
