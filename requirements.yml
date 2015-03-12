@@ -1,2 +1,3 @@
 - src: https://github.com/AutoLogicTechnology/autologic-users
   path: roles/
+  version: v1.0.3
