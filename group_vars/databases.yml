@@ -1,5 +1,5 @@
 ---
-autologic_departments:
+autologic_department_access:
   - 'developers'
   - 'systems'
 
