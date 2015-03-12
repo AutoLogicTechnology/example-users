@@ -1,0 +1,30 @@
+---
+users:
+  'Bob 2':
+    username: 'bob2'
+    state: 'present'
+    job: 'dba'
+  'Michelle':
+    username: 'michelle'
+    state: 'present'
+    job: 'developer'
+  'Batman':
+    username: 'batman'
+    state: 'present'
+    job: 'sysad'
+  'Bob':
+    username: 'bob'
+    state: 'present'
+    job: 'developer'
+  'John':
+    username: 'johnf'
+    state: 'present'
+    job: 'developer'
+  'Barry':
+    username: 'bforeman'
+    state: 'absent'
+    job: 'developer'
+  'Mike':
+    username: 'mike'
+    state: 'present'
+    job: 'sysad'
