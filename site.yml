@@ -8,3 +8,4 @@
         name: "{{item.value.username}}"
         state: "{{item.value.state}}"
       with_dict: users
+      when: item.value.job in group_job

@@ -1,5 +1,4 @@
 ---
-users:
-  'Mike':
-    username: 'mike'
-    state: 'present'
+group_job:
+  - 'developer'
+  - 'sysad'

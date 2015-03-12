@@ -1,11 +1,4 @@
 ---
-users:
-  'Bob 2':
-    username: 'bob2'
-    state: 'present'
-  'Michelle':
-    username: 'michelle'
-    state: 'present'
-  'Batman':
-    username: 'batman'
-    state: 'present'
+group_job:
+  - 'dba'
+
