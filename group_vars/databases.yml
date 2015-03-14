@@ -1,5 +1,7 @@
 ---
 autologic_department_access:
-  - 'developers'
-  - 'systems'
+  - development
+  - systems
 
+autologic_user_access:
+  - bob2

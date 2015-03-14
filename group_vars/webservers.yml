@@ -1,3 +1,5 @@
 ---
 autologic_department_access:
-  - 'systems'
+  - systems
+  - development
+
