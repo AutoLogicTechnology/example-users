@@ -3,4 +3,4 @@
   gather_facts: false
   sudo: true
   roles:
-    - { role: autologic-users, autologic_department_pattern: true }
+    - { role: autologic-users, autologic_department_pattern: false }
