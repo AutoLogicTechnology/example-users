@@ -1,62 +1,32 @@
 ---
 
-autologic_system_groups:
-  'Development Team':
-    groupname: 'developers'
-    state: 'present'
-
-  'UAT and Testing':
-    groupname: 'uat'
-    state: 'present'
-
-  'Systems':
-    groupname: 'systems'
-    state: 'present'
-
-  'Management':
-    groupname: 'management'
-    state: 'absent'
-
 autologic_system_users:
   'Paul James':
     username: 'pjames'
+    comment: 'Super James'
     state: 'present'
-    sshkeys:
-      - 'ssh-rsa AAAA...'
-      - 'ssh-rsa AAAAA..'
-    department: 'development'
+    departments:
+      - 'development'
 
   'Bob Smith':
     username: 'bob2'
     state: 'present'
-    sshkeys:
-      - 'ssh-rsa AAAA...'
-    department: 'external'
+    departments: []
 
   'Michelle Jones':
     username: 'michellej'
     state: 'present'
-    sshkeys:
-      - 'ssh-rsa AAAA...'
-    department: 'uat'
-    groups:
-      - 'uat'
-      - 'developers'
+    departments: []
 
   'Mr Jackson':
     username: 'mjackson'
     state: 'present'
-    sshkeys:
-      - 'ssh-rsa AAAA...'
-    department: 'systems'
-    groups:
+    departments:
       - 'systems'
 
   'Barry Bazz':
     username: 'bbazz'
     state: 'present'
-    sshkeys:
-      - 'ssh-rsa AAAA...'
-    department: 'systems'
-    groups:
+    departments:
       - 'systems'
+

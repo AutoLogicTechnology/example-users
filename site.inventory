@@ -4,7 +4,3 @@ db-01 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5000
 
 [webservers]
 web-01 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5001
-web-02 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5002
-
-[git]
-ci-01 ansible_ssh_host=127.0.0.1 ansible_ssh_port=5003

@@ -17,12 +17,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.define "web-01" do |box|
     box.vm.network :forwarded_port, guest: 22, host: 5001
   end
-
-  config.vm.define "web-02" do |box|
-    box.vm.network :forwarded_port, guest: 22, host: 5002
-  end
-
-  config.vm.define "ci-01" do |box|
-    box.vm.network :forwarded_port, guest: 22, host: 5003
-  end
+  
 end

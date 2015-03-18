@@ -1,6 +1,5 @@
 ---
 autologic_department_access:
-  - development
   - systems
 
 autologic_user_access:
